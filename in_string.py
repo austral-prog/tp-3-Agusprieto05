@@ -1,9 +1,13 @@
 def check_vowels():
-    name = str(input("Nombre: "))
-    print(f"Contiene a: {"a" in name or "A" in name}")
-    print(f"Contiene e: {"e" in name or "E" in name}")
-    print(f"Contiene i: {"i" in name or "I" in name} ")
-    print(f"Contiene o: {"o" in name or "O" in name}")
-    print(f"Contiene u: {"u" in name or "U" in name}")
+    # Código a implementar utilizando input.
+    
+    # Input
+    my_name = input()
 
+    # Imprime en pantalla
+    print("Contiene a: " + str("a" in my_name.lower()))
+    print("Contiene e: " + str("e" in my_name.lower()))
+    print("Contiene i: " + str("i" in my_name.lower()))
+    print("Contiene o: " + str("o" in my_name.lower()))
+    print("Contiene u: " + str("u" in my_name.lower()))
 
