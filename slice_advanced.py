@@ -1,5 +1,9 @@
 def slice_advanced():
     # Código a implementar utilizando input.
-    word=str(input(""))
-    print(word[4::3])
 
+    # Input
+    number = input()
+
+    # Imprime en pantalla
+
+    print(number[4::2])
