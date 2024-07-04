@@ -1,5 +1,5 @@
 def slice_advanced():
     # Código a implementar utilizando input.
-    HW=input("Ingrese cualquier palabra: ")
-    print(HW[4::3])
+    word=str(input(""))
+    print(word[4::3])
 
